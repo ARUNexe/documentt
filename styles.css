@@ -1,0 +1,214 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+nav h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#container-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#container-list li {
+    margin-bottom: 0;
+}
+
+#container-list a {
+    text-decoration: none;
+    color: #3498db;
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+#container-list a:hover {
+    background-color: #d6d8db;
+}
+
+.container-section {
+    margin-bottom: 40px;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+table {
+    flex: 1;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+aside {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+aside h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+aside ul {
+    padding-left: 20px;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.add-codec, .add-reference {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+td ul, aside ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+td ul li, aside ul li {
+    margin-bottom: 5px;
+}
+
+/* ... (keep your existing CSS) ... */
+
+.add-codec, .add-reference {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+td ul, aside ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+td ul li, aside ul li {
+    margin-bottom: 5px;
+}
+
+th {
+    position: relative;
+}
+
+th .add-codec {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+aside h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside h3 .add-reference {
+    margin-left: auto;
+}
+
+#add-container {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-container:hover {
+    background-color: #45a049;
+  }
